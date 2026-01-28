@@ -1,13 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
+  output: "export",
   images: {
     unoptimized: true,
   },
-  // Uncomment and configure when deploying to GitHub Pages
-  // basePath: '/portfolio-website',
-  // assetPrefix: '/portfolio-website',
+  basePath: "/portfolio-website",
+  assetPrefix: "/portfolio-website/",
+  trailingSlash: true,
 };
 
 export default nextConfig;
