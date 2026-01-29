@@ -1,14 +1,7 @@
 const nextConfig = {
-  output: "export",
-
-  basePath: "/portfolio",
-  assetPrefix: "/portfolio/",
-
   images: {
-    unoptimized: true,
+    unoptimized: false, // خليها default
   },
-
-  trailingSlash: true,
 };
 
 module.exports = nextConfig;
