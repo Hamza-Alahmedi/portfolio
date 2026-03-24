@@ -72,7 +72,7 @@ export const PERSONAL_INFO: PersonalInfo = {
   bio: "I'm a frontend-focused full stack developer passionate about creating beautiful, responsive web applications. I specialize in React and Next.js, building modern user interfaces with clean, maintainable code. Currently graduating this year and eager to work on exciting projects.",
   bio_ar:
     "أنا مطور full stack متخصص في الواجهات الأمامية، شغوف بإنشاء تطبيقات ويب جميلة وسريعة الاستجابة. أتخصص في React و Next.js، وبناء واجهات مستخدم حديثة برمز نظيف وسهل الصيانة. حالياً في السنة الأخيرة من دراستي وحريص على العمل على مشاريع مثيرة.",
-  email: "hamza.m.alahmedi@gmail.com",
+  email: "hamza@devhamza.com",
   github: "https://github.com/Hamza-Alahmedi",
   linkedin: "https://www.linkedin.com/in/hamza-ahmedi-a798432a8/",
   whatsapp: "https://wa.me/00905524885051",
