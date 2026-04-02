@@ -75,7 +75,7 @@ export const PERSONAL_INFO: PersonalInfo = {
   email: "hamza@devhamza.com",
   github: "https://github.com/Hamza-Alahmedi",
   linkedin: "https://www.linkedin.com/in/hamza-ahmedi-a798432a8/",
-  whatsapp: "https://wa.me/00905524885051",
+  whatsapp: "https://wa.me/+905524885051",
 };
 
 // Skills
