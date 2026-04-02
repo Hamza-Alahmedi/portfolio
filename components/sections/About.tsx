@@ -94,26 +94,78 @@ export function About() {
 
           <div className="order-1 md:order-2 flex justify-center">
             <div className="relative">
-              <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-2xl bg-gradient-to-br from-primary to-accent p-1">
-                <div className="w-full h-full rounded-2xl bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
-                  <svg
-                    className="w-32 h-32 text-gray-400"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </div>
-              </div>
-              <div className="absolute -bottom-4 -right-4 bg-primary text-white px-4 py-2 rounded-lg shadow-lg">
+              <svg
+                width="320"
+                height="320"
+                viewBox="0 0 160 160"
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-64 h-64 sm:w-80 sm:h-80 rounded-2xl"
+              >
+                <defs>
+                  <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stopColor="#3b82f6" />
+                    <stop offset="100%" stopColor="#8b5cf6" />
+                  </linearGradient>
+                </defs>
+                <circle cx="80" cy="80" r="78" fill="#0f0f1a" />
+                <circle
+                  cx="80"
+                  cy="80"
+                  r="62"
+                  fill="none"
+                  stroke="#3b82f6"
+                  strokeWidth="1"
+                  opacity="0.3"
+                />
+                <circle
+                  cx="80"
+                  cy="80"
+                  r="50"
+                  fill="none"
+                  stroke="#8b5cf6"
+                  strokeWidth="1"
+                  opacity="0.2"
+                />
+                <text
+                  x="80"
+                  y="55"
+                  textAnchor="middle"
+                  fontFamily="'Courier New', monospace"
+                  fontSize="12"
+                  fill="#3b82f6"
+                  opacity="0.8"
+                >
+                  &lt;dev /&gt;
+                </text>
+                <text
+                  x="80"
+                  y="97"
+                  textAnchor="middle"
+                  fontFamily="Georgia, serif"
+                  fontSize="60"
+                  fontWeight="700"
+                  fill="url(#g3)"
+                  letterSpacing="-1"
+                >
+                  H
+                </text>
+                <text
+                  x="80"
+                  y="120"
+                  textAnchor="middle"
+                  fontFamily="'Courier New', monospace"
+                  fontSize="10"
+                  fill="#8b5cf6"
+                  opacity="0.7"
+                >
+                  full stack
+                </text>
+              </svg>
+              {/* <div className="absolute -bottom-4 -right-4 bg-primary text-white px-4 py-2 rounded-lg shadow-lg">
                 <p className="text-sm font-medium">
                   {locale === "ar" ? "خريج 2026" : "Graduating 2026"}
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

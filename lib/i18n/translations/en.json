@@ -21,8 +21,8 @@
   "about": {
     "title": "About Me",
     "subtitle": "Frontend-Focused Full Stack Developer",
-    "bio": "I'm a frontend-focused full stack developer passionate about creating beautiful, responsive web applications. I specialize in React and Next.js, building modern user interfaces with clean, maintainable code. Currently graduating this year and eager to work on exciting projects.",
-    "bio2": "I love taking on challenging projects that push my abilities and help me grow as a developer. My approach combines clean code practices with modern design principles to create exceptional user experiences.",
+    "bio": "Frontend-focused full stack developer specializing in React and Next.js. I build fast, responsive web applications with clean code and a sharp eye for UI/UX.",
+    "bio2": "I thrive on challenging projects and am actively looking for new opportunities.",
     "location": "Location",
     "status": "Status",
     "statusValue": "Available for Freelance",

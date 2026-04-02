@@ -222,7 +222,7 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/Hamza-Alahmedi/Data-Science-Project",
     role: "Data Analysis & Machine Learning",
     role_ar: "تحليل بيانات وتعلم آلة",
-    image: "/images/projects/datascinece.png",
+    image: "/images/projects/dataScinece.png",
   },
 
   {
@@ -291,9 +291,9 @@ export const EDUCATION: Education = {
   degree_ar: "بكالوريوس في هندسة الحاسوب",
   institution: "Sultan Mehmet Fatih Vakif University",
   institution_ar: "جامعة السلطان محمد الفاتح الوقفية",
-  period: "2022 - 2026",
-  status: "Graduating in 2026",
-  status_ar: "يتخرج في 2026",
+  period: "2021 - 2026",
+  // status: "Graduating in 2026",
+  // status_ar: "يتخرج في 2026",
 };
 
 // Navigation Items

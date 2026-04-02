@@ -21,11 +21,32 @@ export const metadata: Metadata = {
     PERSONAL_INFO.name,
   ],
   authors: [{ name: PERSONAL_INFO.name }],
+  icons: {
+    icon: "/favicon.svg",
+  },
   openGraph: {
     title: `${PERSONAL_INFO.name} - ${PERSONAL_INFO.title}`,
     description: PERSONAL_INFO.bio,
     type: "website",
     locale: "en_US",
+    url: "https://yourportfolio.com",
+    siteName: `${PERSONAL_INFO.name} - Portfolio`,
+    images: [
+      {
+        url: "/favicon.svg",
+        width: 160,
+        height: 160,
+        alt: `${PERSONAL_INFO.name} - Full Stack Developer`,
+        type: "image/svg+xml",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary",
+    title: `${PERSONAL_INFO.name} - ${PERSONAL_INFO.title}`,
+    description: PERSONAL_INFO.bio,
+    creator: PERSONAL_INFO.name,
+    images: ["/favicon.svg"],
   },
 };
 
