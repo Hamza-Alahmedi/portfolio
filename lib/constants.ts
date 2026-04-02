@@ -292,8 +292,8 @@ export const EDUCATION: Education = {
   institution: "Sultan Mehmet Fatih Vakif University",
   institution_ar: "جامعة السلطان محمد الفاتح الوقفية",
   period: "2021 - 2026",
-  // status: "Graduating in 2026",
-  // status_ar: "يتخرج في 2026",
+  status: "Graduating in 2026",
+  status_ar: "يتخرج في 2026",
 };
 
 // Navigation Items

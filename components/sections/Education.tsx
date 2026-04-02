@@ -73,8 +73,8 @@ export function Education() {
               </p>
               <div className="flex flex-col md:flex-row items-center md:items-start gap-2 text-gray-600 dark:text-gray-400 text-sm">
                 <span>{EDUCATION.period}</span>
-                <span className="hidden md:inline">•</span>
-                <span>{status}</span>
+                {/* <span className="hidden md:inline">•</span>
+                <span>{status}</span> */}
               </div>
             </div>
           </div>
